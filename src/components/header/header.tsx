@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { QwikLogo } from "../icons/qwik";
+import Image from './logo.png?jsx';
 import styles from "./header.module.css";
 
 export default component$(() => {
@@ -7,33 +7,33 @@ export default component$(() => {
     <header class={styles.header}>
       <div class={styles.wrapper}>
         <div class={styles.logo}>
-          <a href="/" title="qwik">
-            <QwikLogo height={50} width={143} />
+          <a href="/" title="kakkukammari">
+          <Image style={{ width: '150px', height: '150px'}} />
           </a>
         </div>
         <ul>
           <li>
             <a
-              href="https://qwik.builder.io/docs/components/overview/"
+              href="#tietoa"
               target="_blank"
             >
-              Docs
+              Tietoa
             </a>
           </li>
           <li>
             <a
-              href="https://qwik.builder.io/examples/introduction/hello-world/"
+              href="#sijainti"
               target="_blank"
             >
-              Examples
+              Löydä perille
             </a>
           </li>
           <li>
             <a
-              href="https://qwik.builder.io/tutorial/welcome/overview/"
+              href="#yhteystiedot"
               target="_blank"
             >
-              Tutorials
+              Yhteystiedot
             </a>
           </li>
         </ul>

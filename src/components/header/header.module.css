@@ -33,7 +33,7 @@
 }
 
 .header li a {
-  color: white;
+  color: rgb(19, 18, 18);
   display: inline-block;
   padding: 0;
   text-decoration: none;
@@ -47,4 +47,17 @@
   .header li {
     display: inline-block;
   }
+
+  
+}
+
+@media (max-width: 640px) {
+  .wrapper
+  {
+    display: flex;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+  }
+
+  
 }

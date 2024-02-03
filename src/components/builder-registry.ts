@@ -1,5 +1,10 @@
 import type { RegisteredComponent } from "@builder.io/sdk-qwik";
 import Counter from "./counter/counter";
+import Footer from "./footer/footer";
+import Gauge from "./gauge";
+import Header from "./header/header";
+import { MyComponent } from "./slider/slider";
+import { RouterHead } from "./router-head/router-head";
 
 /**
  * This array is used to integrate custom components within Builder.
@@ -21,5 +26,35 @@ export const CUSTOM_COMPONENTS: RegisteredComponent[] = [
         type: "number",
       },
     ],
+  },
+  {
+    component: Footer,
+    name: "Footer",
+    inputs: [],
+  },
+  {
+    component: Gauge,
+    name: "Gauge",
+    inputs: [
+      {
+        name: "value",
+        type: "number",
+      },
+    ],
+  },
+  {
+    component: Header,
+    name: "Header",
+    inputs: [],
+  },
+  {
+    component: RouterHead,
+    name: "Router Head",
+    inputs: [],
+  },
+  {
+    component: MyComponent,
+    name: "Slider-qwik",
+    inputs: [],
   },
 ];

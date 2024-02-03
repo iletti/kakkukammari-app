@@ -7,16 +7,16 @@
  */
 
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
+  --qwik-dark-blue: #EBE8E1;
+  --qwik-light-blue: #372c2c;
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
   --qwik-dirty-black: #1d2033;
 
-  --text-color: #ffffff;
-  --main-background: #1c224a;
+  --text-color: #212529;
+  --main-background: #EBE8E1;
   --header-background: var(--main-background);
-  --footer-background: #0d0c25;
+  --footer-background: #EBE8E1;
 }
 
 /* SHELL ---------------------------------------- */
@@ -54,7 +54,7 @@ main {
 h1,
 h2,
 h3 {
-  color: white;
+  color: rgb(25, 24, 24);
   margin: 0;
 }
 
