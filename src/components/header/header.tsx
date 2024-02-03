@@ -15,7 +15,6 @@ export default component$(() => {
           <li>
             <a
               href="#tietoa"
-              target="_blank"
             >
               Tietoa
             </a>
@@ -23,7 +22,6 @@ export default component$(() => {
           <li>
             <a
               href="#sijainti"
-              target="_blank"
             >
               Löydä perille
             </a>
@@ -31,7 +29,6 @@ export default component$(() => {
           <li>
             <a
               href="#yhteystiedot"
-              target="_blank"
             >
               Yhteystiedot
             </a>
